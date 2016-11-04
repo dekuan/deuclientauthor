@@ -1,0 +1,38 @@
+{
+    "name": "dekuan/deuclientauthor",
+    "description": "Author User Client SDK by DeKuan, Inc.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wan",
+            "email": "wan@dekuan.org"
+        }
+    ],
+    "require":
+    {
+      "php": ">=5.3.0",
+      "dekuan/deuclient": ">=1.0"
+    },
+    "require-dev":
+    {
+      "fzaninotto/faker": "~1.4",
+      "mockery/mockery": "0.9.*",
+      "phpunit/phpunit": "~4.0",
+      "phpspec/phpspec": "~2.1"
+    },
+    "autoload":
+    {
+      "psr-4":
+      {
+        "dekuan\\": "src"
+      }
+    },
+    "autoload-dev":
+    {
+      "psr-4":
+      {
+        "dekuan\\": "src"
+      }
+    }
+}
